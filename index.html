@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap Examples</title
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!-- Styles.css font family is not showing in the HTML -->
+	<link rel="stylesheets" href="styles.css">
+</head>
+<!-- Need to add functionality to the anchor tags and the search -->
+<header class="navbar navbar-expand-lg align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom ">
+    <div class="navbar-brand col-md-3 mb-2 mb-md-0 p-4">
+        <a href="#" class="d-inline-flex link-body-emphasis text-decoration-none">
+          <img class="d-inline-block align-top"src="./Images/nhsbt-left-align_scaled.svg" height="40px">
+        </a>
+    </div>
+     <button class="navbar-toggler mx-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 primary">
+		  <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About us
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Performance and Strategy</a></li>
+            <li><a class="dropdown-item" href="#">Our Values</a></li>
+            <li><a class="dropdown-item" href="#">Meet our Team</a></li>
+            <li><a class="dropdown-item" href="#">Transparency</a></li>
+            <li><a class="dropdown-item" href="#">Service Developments</a></li>
+          </ul>
+        </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Blood Services</a></li>
+            <li><a class="dropdown-item" href="#">Transplantation Services</a></li>
+            <li><a class="dropdown-item" href="#">Diagnostic and Therapeautic Services</a></li>
+            <li><a class="dropdown-item" href="#">Donor Family Care Service</a></li>
+          </ul>
+        </li>
+         </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Research
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Scientific Discovery</a></li>
+            <li><a class="dropdown-item" href="#">Advance Therapies</a></li>
+            <li><a class="dropdown-item" href="#">Critical and Research</a></li>
+          </ul>
+           <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Contribute
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Donate</a></li>
+            <li><a class="dropdown-item" href="#">Get Involved</a></li>
+            <li><a class="dropdown-item" href="#">Partners</a></li>
+            <li><a class="dropdown-item" href="#">Tell Your Story</a></li>
+          </ul>
+        </li>
+           <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Careers
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Explore our Jobs</a></li>
+            <li><a class="dropdown-item" href="#">Work for NHSBT</a></li>
+            <li><a class="dropdown-item" href="#">Career Spotlight</a></li>
+          </ul>
+        </li>
+		<li><a href="#" class="nav-link px-2 me-5">News</a></li>
+     </ul>
+	
+  
+<!--Need to be able to float this to the right side of the header. -->
+<!-- Or Create a search icon that opens a search bar -->
+   <div class="navbar align-items-right">
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-primary ms-auto me-auto" type="submit">Search</button>
+   
+  <div> 
+</header>
+<!-- Need to change background to a different colour and fix the image so it fills on the right of the col -->
+<div class="container-fluid bg-primary-subtle">
+ <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./Images/Hero1.jpg" class="d-block mx-lg-auto img-fluid" alt="Helping hand" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Do Something Extraordinary And Help Save Lives</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus velit ligula, eget pharetra risus rutrum quis. Donec pharetra leo vel arcu ullamcorper vestibulum. Praesent augue sem, euismod sagittis nunc ac, facilisis lobortis est. Vivamus semper ut nibh ac tristique. Maecenas tincidunt sagittis ex nec interdum. Integer imperdiet ex lorem, eget accumsan ligula dignissim eget.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-danger btn-lg px-4 me-md-2">Donate</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
